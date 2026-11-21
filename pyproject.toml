@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "datasets>=4.4.1",
+    "datasets>=5.0.1",
     "gql<4",
     "inspect-ai>=0.3.212",
     "ipywidgets>=8.1.8",
@@ -32,6 +32,6 @@ researchrepo = { git = "https://github.com/JoyeeChen/ResearchRepo.git" }
 [dependency-groups]
 dev = [
     "ipykernel>=7.1.0",
-    "nbconvert>=7.17.1",
-    "uv>=0.9.14",
+    "nbconvert>=7.17.2",
+    "uv>=0.13.4",
 ]
